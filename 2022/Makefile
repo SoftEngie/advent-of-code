@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++17
-SRCDIR = src
+SRCDIR = ./
 
 # Define the targets for days 1 to 25
 days := $(shell seq 1 25)
