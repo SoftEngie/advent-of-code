@@ -12,7 +12,7 @@
 
 int main(int argc, char** argv){
     //declare variables here
-    int result = 0;
+    int result = 0, result2 = 0;
     std::string line;
     std::ifstream input_file("template.input");
     if (input_file.is_open()){
@@ -24,6 +24,7 @@ int main(int argc, char** argv){
 
         //print the result
         std::cout << "Result is : " << result << std::endl;
+        std::cout << "Result for part 2 is : " << result << std::endl;
     }
 
 }
